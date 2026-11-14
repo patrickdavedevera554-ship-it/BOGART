@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio | Patrick Dave P. De Vera</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="navbar">
+    <div class="nav-brand">Patrick Dave</div>
+    <ul class="nav-links">
+      <li><a href="#personal">Personal Info</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#javacode">Java Code</a></li>
+    </ul>
+  </nav>
+
+  <!-- ==================== HERO / HEADER ==================== -->
+  <header class="hero">
+    <div class="hero-layout">
+      <div class="hero-copy">
+        <h1>Hello, I'm <span class="highlight">Patrick Dave P. De Vera</span></h1>
+        <p>BS Information Technology Student &amp; Aspiring Software Developer</p>
+      </div>
+
+      <div class="profile-card" aria-label="Profile card for Patrick Dave P. De Vera">
+        <div class="profile-avatar">
+          <img src="pat.jpg" alt="Patrick Dave P. De Vera" />
+        </div>
+        <div class="profile-details">
+          <h2>Patrick Dave P. De Vera</h2>
+          <p>BSIT Student</p>
+          <span>Software Development Enthusiast</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== SECTION A: PERSONAL INFO ==================== -->
+  <section id="personal" class="section">
+    <h2 class="section-title">Personal Information</h2>
+    <div class="card">
+      <div class="info-grid">
+        <div class="info-item">
+          <strong>Full Name:</strong> Patrick Dave P. De Vera
+        </div>
+        <div class="info-item">
+          <strong>Date of Birth:</strong> April 24, 2008
+        </div>
+        <div class="info-item">
+          <strong>Address:</strong> St. John, Guimba, Nueva Ecija
+        </div>
+        <div class="info-item">
+          <strong>Email:</strong> patrickdavedevera@gmail.com
+        </div>
+        <div class="info-item">
+          <strong>Phone:</strong> +63 9159635909
+        </div>
+        <div class="info-item">
+          <strong>GitHub:</strong> github.com/patrickdavedevera554-ship-it
+        </div>
+      </div>
+      <div class="bio">
+        <h3>About Me</h3>
+        <p>
+          I am a first-year BS Information Technology student with a strong
+          passion for programming and software development. I enjoy solving
+          problems through code and am currently expanding my knowledge in
+          object-oriented programming using Java. My goal is to become a
+          full-stack developer and build applications that make a positive
+          impact on people's lives.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION B: EDUCATION ==================== -->
+  <section id="education" class="section section-alt">
+    <h2 class="section-title">Educational Background</h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>BS Information Technology</h3>
+          <span class="timeline-date">2026 – Present</span>
+          <p>University of the Philippines – Diliman, Quezon City</p>
+          <p>Relevant Coursework: CC101 (Intro to Computing), CC102 (OOP in Java), Web Development, Database Systems</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Senior High School – STEM Strand</h3>
+          <span class="timeline-date">2023 – 2025</span>
+          <p>Our Lady of the Sacred Heart College of Guimba</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Junior High School</h3>
+          <span class="timeline-date">2019 – 2023</span>
+          <p>Our Lady of the Sacred Heart College of Guimba</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== SECTION C: SKILLS ==================== -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <h3>Programming Languages</h3>
+        <ul>
+          <li>Java (Intermediate)</li>
+          <li>Python (Beginner)</li>
+          <li>C++ (Beginner)</li>
+          <li>SQL (Beginner)</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Web Technologies</h3>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript (Basic)</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Tools &amp; Platforms</h3>
+        <ul>
+          <li>Git &amp; GitHub</li>
+          <li>VS Code</li>
+          <li>IntelliJ IDEA</li>
+          <li>NetBeans</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Problem Solving</li>
+          <li>Team Collaboration</li>
+          <li>Time Management</li>
+          <li>Technical Writing</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== SECTION D: JAVA CODE ==================== -->
+  <section id="javacode" class="section section-alt">
+    <h2 class="section-title">Java Code – CC102 Final Performance Task</h2>
+    <div class="card">
+      <h3>Console-Based Number Guessing Game</h3>
+      <p>
+        This is my final Performance Task for <strong>CC102 – Object-Oriented
+        Programming</strong>. The game generates a random number between 1 and
+        100 and challenges the player to guess it within a limited number of
+        attempts. It demonstrates the use of classes, methods, loops,
+        conditionals, and user input handling in Java.
+      </p>
+
+      <pre><code>
+import java.util.Scanner;
+import java.util.Random;
+
+public class SimpleGame {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+
+        int secretNumber = random.nextInt(10) + 1;
+        int guess = 0;
+        int attempts = 0;
+
+        System.out.println("=== Guess the Number (1-10) ===");
+
+        while (guess != secretNumber) {
+            System.out.print("Enter your guess: ");
+            guess = scanner.nextInt();
+            attempts++;
+
+            if (guess < secretNumber) {
+                System.out.println("Too low! Try again.");
+            } else if (guess > secretNumber) {
+                System.out.println("Too high! Try again.");
+            } else {
+                System.out.println("Correct! You got it in " + attempts + " tries!");
+            }
+        }
+
+        scanner.close();
+    }
+}
+</code></pre>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <p>&copy; 2026 Patrick Dave P. De Vera. All rights reserved.</p>
+    <p>Built with HTML &amp; CSS for CC102 Portfolio Project.</p>
+  </footer>
+
+</body>
+</html>
